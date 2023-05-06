@@ -3,7 +3,7 @@ BRUSH_SIZE = 5
 PALETTE_PANEL_WIDTH = 60
 brush_color = None
 color_positions = []
-clear_text=[]
+clear_text = []
 
 
 def update_brush_color(color):
@@ -42,16 +42,18 @@ def setup():
 
 def draw():
     if mousePressed and not is_over(0, 0, PALETTE_PANEL_WIDTH, height):
-            stroke(brush_color)
-            strokeWeight(BRUSH_SIZE)
-            line(mouseX, mouseY, pmouseX, pmouseY)
+        stroke(brush_color)
+        strokeWeight(BRUSH_SIZE)
+        line(mouseX, mouseY, pmouseX, pmouseY)
 
 
 def is_over(x, y, w, h):
     return mouseX >= x and mouseX <= x + w and mouseY >= y and mouseY <= y + h
 
+
 def is_over_colors():
-    return is_over(0, 0, PALETTE_PANEL_WIDTH, PALETTE_PANEL_WIDTH *len(COLORS)/2)
+    return is_over(0, 0, PALETTE_PANEL_WIDTH, PALETTE_PANEL_WIDTH * len(COLORS) / 2)
+
 
 def get_color():
     for color_position in color_positions:
@@ -63,8 +65,7 @@ def mouseClicked():
     if is_over_colors():
         color = get_color()
         update_brush_color(color)
-    elif is_over(10 , height-22, textWidth('CLEAR'), 22):
+    elif is_over(10, height - 22, textWidth('CLEAR'), 22):
         fill('#004477')
-        # stroke('#004477')
         noStroke()
         rect(PALETTE_PANEL_WIDTH, 0, width, height)

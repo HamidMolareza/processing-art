@@ -42,6 +42,8 @@ projects in this repository are written with **Python** using the Processing Pyt
 Before running the projects in this repository, you will need to install the Processing Python mode. You can download
 the Processing IDE [here](https://processing.org/download/) and install the Python mode from the PDE's "Tools" menu.
 
+![Processing](docs/images/Processing.png)
+
 ### Clone
 
 To get started, clone the repository or download the ZIP file.

@@ -81,7 +81,7 @@ In this repository, `Mondrian Tiles` is solved in two ways, one using **recursiv
 approach. In this project, you can create a tile pattern inspired by Piet Mondrian's artwork. You can choose the number
 of tiles, the colors, and the tile's size.
 
-### [Simple Paint Program]((Projects/Paint))
+### [Simple Paint Program](Projects/Paint)
 
 ![Paint Image](docs/images/Paint.png)
 

@@ -60,7 +60,7 @@ Processing IDE and run it.
 
 ## Projects
 
-### Mondrian Tiles
+### [Mondrian Tiles](Projects/MondrianTiles)
 
 ![Mondrian Tiles Image](docs/images/MondrianTiles.png)
 
@@ -81,7 +81,7 @@ In this repository, `Mondrian Tiles` is solved in two ways, one using **recursiv
 approach. In this project, you can create a tile pattern inspired by Piet Mondrian's artwork. You can choose the number
 of tiles, the colors, and the tile's size.
 
-### Simple Paint Program
+### [Simple Paint Program]((Projects/Paint))
 
 ![Paint Image](docs/images/Paint.png)
 
@@ -141,11 +141,13 @@ See [LICENSE](LICENSE) for more information.
 
 ## Acknowledgements
 
-- Thanks to my very good friend, Mr. [Mohammad Ali Rastegar](https://github.com/mohras148/), I got acquainted with this field.
+- Thanks to my very good friend, Mr. [Mohammad Ali Rastegar](https://github.com/mohras148/), I got acquainted with this
+  field.
   Unlike him, I did not work professionally in this field and probably will not. If you need more help and guidance, it
   is better to talk to him.
 
-- The initial idea for solving the `Mondrian Tiles` problem was taken from [this repository](https://github.com/erdavids/Mondrian-Tiles) and improved.
+- The initial idea for solving the `Mondrian Tiles` problem was taken
+  from [this repository](https://github.com/erdavids/Mondrian-Tiles) and improved.
 
 ## Related
 

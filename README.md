@@ -14,7 +14,7 @@
 <div align="center">
 <br />
 
-![GitHub](https://img.shields.io/github/license/User/Repo)
+![GitHub](https://img.shields.io/github/license/HamidMolareza/processing-art)
 
 [![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/HamidMolareza/processing-art/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 [![code with love by HamidMolareza](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-HamidMolareza-ff1414.svg?style=flat-square)](https://github.com/HamidMolareza)
@@ -94,27 +94,27 @@ Reach out to the maintainer at one of the following places:
 
 - [GitHub issues](https://github.com/HamidMolareza/processing-art/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
 
-# FAQ
+## FAQ
 
-## What is Processing?
+### What is Processing?
 
 [Processing](https://processing.org/) is a flexible software sketchbook and a language for learning how to code within
 the context of the visual
 arts. It is an open-source project that promotes software literacy within the visual arts and visual literacy within
 technology.
 
-## What is the Processing Python mode?
+### What is the Processing Python mode?
 
 The Processing Python mode is a Python environment for the Processing Development Environment (PDE). It allows Python
 programmers to take advantage of the Processing visualization libraries and tools to create graphical applications and
 interactive artwork.
 
-## Can I contribute to this repository?
+### Can I contribute to this repository?
 
 Yes! Contributions to this repository are welcome. If you have any suggestions or want to add your own projects, feel
 free to create a pull request.
 
-## What license is this repository under?
+### What license is this repository under?
 
 This repository is licensed under the GPLv3 license. See the [LICENSE](LICENSE) file for more details.
 

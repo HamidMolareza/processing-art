@@ -23,135 +23,100 @@
 
 ## About
 
-> **[?]**
-> Provide general information about your project here.
-> Put a meaningful, short, plain-language description of:
-> What problem does it (intend to) solve?
-> What is the purpose of your project?
-> What this project is trying to accomplish and why it matters?
-> Why did you undertake it?
-> Describe the problem(s) this project solves.
-> Describe how this software can improve the lives of its audience.
-> Describe what sets this apart from related-projects.
-> You don't have to answer all the questions -- just the ones relevant to your project.
-
-### Demo
-
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
-
-<details>
-<summary>Screenshots</summary>
-<br>
-
-> **[?]**
-> Please provide your screenshots here.
-
-|                               Home Page                               |                               Login Page                               |
-| :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| <img src="docs/images/screenshot.png" title="Home Page" width="100%"> | <img src="docs/images/screenshot.png" title="Login Page" width="100%"> |
-
-</details>
+This repository contains some **personal** practice and art projects with [Processing](https://processing.org/), which
+is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. All the
+projects in this repository are written with **Python** using the Processing Python mode.
 
 ### Built With
 
-> **[?]**
-> Please provide the technologies that are used in the project.
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
+- [Processing](https://processing.org/) - a flexible software sketchbook and a language for learning how to code within
+  the context of the visual arts
+- [Python](https://www.python.org/) - a programming language that is easy to learn and has a clear syntax
+- [Processing Python mode](https://py.processing.org/) - a Python environment for the Processing Development
+  Environment (PDE)
 
 ## Getting Started
 
 ### Prerequisites
 
-> **[?]**
-> What are the project requirements/dependencies?
-> Describe any dependencies that must be installed for this software to work. This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth. If specific versions of other software are required, or known not to work, call that out.
+Before running the projects in this repository, you will need to install the Processing Python mode. You can download
+the Processing IDE [here](https://processing.org/download/) and install the Python mode from the PDE's "Tools" menu.
 
-### Installation
+### Clone
 
-> **[?]**
-> Describe how to install and get started with the project.
-> Detailed instructions on how to install, configure, and get the project running. This should be frequently tested to ensure reliability. Alternatively, link to a separate [INSTALL](INSTALL.md) document.
+To get started, clone the repository or download the ZIP file.
 
-## Usage
-
-> **[?]**
-> How does one go about using it?
-> Provide various use cases and code examples here.
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-    return <Component/>
-}
+```bash
+git clone https://github.com/HamidMolareza/processing-art.git
 ```
 
-### Documentation
+### Run
 
-[Documentation](https://linktodocumentation)
+To run the projects, navigate to the directory of the project you want to run, and run the corresponding Python file
+using the Processing Python mode.
 
-## Known issues
+For example, to run the `Mondrian Tiles` project, navigate to the `MondrianTiles` directory and copy the solution to
+Processing IDE and run it.
 
-Document any known significant shortcomings with the software.
+## Projects
 
-## CHANGELOG
+### Mondrian Tiles
 
-## Features
+![Mondrian Tiles Image](docs/images/MondrianTiles.png)
 
--
--
+`Mondrian Tiles` is a type of art-inspired design that is characterized by its use of rectangular shapes in primary
+colors (red, blue, and yellow) and non-primary colors (white, black, and gray). It is named after the Dutch painter Piet
+Mondrian, who is known for his abstract paintings that feature a similar style.
 
-## Roadmap
+`Mondrian Tiles` are often used in graphic design, interior design, and web design to create a clean, modern aesthetic.
+The design is created by dividing a space into a grid of rectangles and filling each rectangle with a color or
+combination of colors. The rectangles can be arranged in different ways to create different compositions, but they
+always maintain the same basic principles of using primary colors and rectangular shapes.
 
-See the [open issues](https://github.com/HamidMolareza/processing-art/issues) for a list of proposed features (and known
-issues).
+`Mondrian Tiles` are a popular design choice because they are simple, bold, and visually striking. They can be used to
+create a wide range of designs, from minimalist to more complex and layered compositions.
 
-- [Top Feature Requests](https://github.com/HamidMolareza/processing-art/issues?q=label%3Aenhancement+is%3Aopen+sort%3Areactions-%2B1-desc) (
-  Add your votes using the 👍 reaction)
-- [Top Bugs](https://github.com/HamidMolareza/processing-art/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Areactions-%2B1-desc) (
-  Add your votes using the 👍 reaction)
-- [Newest Bugs](https://github.com/HamidMolareza/processing-art/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+In this repository, `Mondrian Tiles` is solved in two ways, one using **recursive** and the other using a *
+*non-recursive**
+approach. In this project, you can create a tile pattern inspired by Piet Mondrian's artwork. You can choose the number
+of tiles, the colors, and the tile's size.
+
+### Simple Paint Program
+
+![Paint Image](docs/images/Paint.png)
+
+The Simple Paint Program allows the user to choose a color from the color panel and draw on the screen. The user can
+also change the brush size and erase the drawing.
 
 ## Support
-
-> **[?]**
-> Provide additional ways to contact the project maintainer/maintainers.
 
 Reach out to the maintainer at one of the following places:
 
 - [GitHub issues](https://github.com/HamidMolareza/processing-art/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
-- Contact options listed on [this GitHub profile](https://github.com/HamidMolareza)
 
-## Used By
+# FAQ
 
-This project is used by the following companies:
+## What is Processing?
 
-- Company 1
-- Company 2
+[Processing](https://processing.org/) is a flexible software sketchbook and a language for learning how to code within
+the context of the visual
+arts. It is an open-source project that promotes software literacy within the visual arts and visual literacy within
+technology.
 
-## FAQ
+## What is the Processing Python mode?
 
-#### Question 1
+The Processing Python mode is a Python environment for the Processing Development Environment (PDE). It allows Python
+programmers to take advantage of the Processing visualization libraries and tools to create graphical applications and
+interactive artwork.
 
-Answer 1
+## Can I contribute to this repository?
 
-#### Question 2
+Yes! Contributions to this repository are welcome. If you have any suggestions or want to add your own projects, feel
+free to create a pull request.
 
-Answer 2
+## What license is this repository under?
 
-## Project assistance
-
-If you want to say **thank you** or/and support active development of PROJECT_NAME:
-
-- Add a [GitHub Star](https://github.com/HamidMolareza/processing-art) to the project.
-- Tweet about the PROJECT_NAME.
-- Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your
-  personal blog.
-
-Together, we can make PROJECT_NAME **better**!
+This repository is licensed under the GPLv3 license. See the [LICENSE](LICENSE) file for more details.
 
 ## Contributing
 
@@ -163,17 +128,10 @@ Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you f
 
 ## Authors & contributors
 
-The original setup of this repository is by [HamidMolareza](https://github.com/HamidMolareza).
-
-For a full list of all authors and contributors,
-see [the contributors page](https://github.com/HamidMolareza/processing-art/contributors).
-
-## Security
-
-PROJECT_NAME follows good practices of security, but 100% security cannot be assured. PROJECT_NAME is provided **"as
-is"** without any **warranty**.
-
-_For more information and to report security issues, please refer to our [security documentation](docs/SECURITY.md)._
+- The original setup of this repository is by [HamidMolareza](https://github.com/HamidMolareza).
+- [Mohammad Ali Rastegar](github.com/mohras148/)
+- For a full list of all authors and contributors,
+  see [the contributors page](https://github.com/HamidMolareza/processing-art/contributors).
 
 ## License
 
@@ -183,14 +141,19 @@ See [LICENSE](LICENSE) for more information.
 
 ## Acknowledgements
 
-> **[?]**
-> If your work was funded by any organization or institution, acknowledge their support here.
-> In addition, if your work relies on other software libraries, or was inspired by looking at other work, it is appropriate to acknowledge this intellectual debt too.
+- Thanks to my very good friend, Mr. [Mohammad Ali Rastegar](github.com/mohras148/), I got acquainted with this field.
+  Unlike him, I did not work professionally in this field and probably will not. If you need more help and guidance, it
+  is better to talk to him.
+
+- The initial idea for solving the `Mondrian Tiles` problem was taken from [this repository](https://github.com/erdavids/Mondrian-Tiles) and improved.
 
 ## Related
 
-Here are some related projects
+Here are some related resources and projects that you may find interesting:
 
-[Awesome README](https://github.com/matiassingers/awesome-readme)
-
-
+- [Processing.org](https://processing.org/) - the official website of Processing
+- [Processing.py](https://py.processing.org/) - the official Python mode for Processing
+- [Processing Foundation](https://processingfoundation.org/) - a nonprofit organization dedicated to promoting software
+  literacy within the visual arts and visual literacy within technology
+- [OpenProcessing](https://www.openprocessing.org/) - an online community platform for sharing Processing sketches and
+  projects
